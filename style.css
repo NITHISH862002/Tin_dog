@@ -1,0 +1,180 @@
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    
+}
+body{
+    font-family: 'Montserrat-black' ;
+}
+h1{
+    
+    font-family: 'Montserrat-black'; 
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
+}
+h2{
+    font-family: 'Montserrat-bold';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#title.container-fluid{
+    padding: 3% 15% 7%;
+}
+.container-fluid{
+    padding:7% 15%;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-nav{
+    padding-left: 40rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu-bold';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px ;
+    font-family: 'Montserrat-Light';
+    font-size: 1.2rem;
+}
+.dbtn{
+    margin: 5% 3% 5%;
+}
+
+
+.colr{
+    color: #ef8172;
+    
+    padding: 5%;
+    margin-bottom:1rem ;
+    
+}
+.colr:hover{
+    color: #ff4c68;
+}
+
+.mb{
+    font-family: 'Montserrat-bold';
+  
+    font-size: 1.5rem;
+}
+.para{
+    color: #8f8f8f;
+}
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    
+
+   
+}
+.timage{
+    transform: rotate(25deg);
+    width: 23%;
+    position: absolute;
+     right: 15%;
+    
+    
+}
+.col-lg-4{
+    text-align: center;
+}
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonials-img{
+    width: 10%;
+    height: 10%;
+    border-radius: 100px;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+    
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+    text-align: center;
+    padding: 7% 15%;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+.card-header{
+    padding: 5%;
+}
+
+.pricing-btn{
+    box-shadow: none;
+    color: #ef8172;
+    border-color: #ef8172;
+    width: 100%;
+    padding: 5px;
+}
+.pricing-btn:hover{
+    box-shadow: none;
+    background-color: #ef8172;
+    border-color: #ef8172;
+}
+
+.card{
+    margin-top: 5%;
+}
+
+.card-body{
+    text-align: center;
+}
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    font-family: 'Montserrat-bold';
+    text-align: center;
+    padding: 7% 7%;
+}
+
+@media(max-width:1028px){
+
+    #title{
+        text-align: center;
+    }
+    .timage{
+        position: static;
+        transform: rotate(0deg);
+    }
+   
+ /*this means that this style is added only to the container fluid inside the titlwe section */
+    
+    .navbar-nav{
+        padding-left: 4rem;
+    }
+}
+#footer{
+    padding: 3% 15%;
+    text-align: center;
+
+    }
+
+.sp{
+    margin: 20px 10px;
+}
+.cp{
+    color: #8f8f8f;
+}

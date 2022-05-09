@@ -1,0 +1,12 @@
+h1{
+    color: blue;
+    font-size: 30px;
+}
+@media(max-width:900px){
+    h1{
+        font-size: 60px;
+        color: aquamarine;
+    }
+
+}
+
